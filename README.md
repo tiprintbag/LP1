@@ -13,6 +13,21 @@ A landing page contém as seguintes seções:
 
 ## 🚀 Como Usar
 
+### Hospedagem Online (GitHub Pages)
+
+A landing page está configurada para ser hospedada no GitHub Pages. Para ativar:
+
+1. Vá em **Settings** do repositório no GitHub
+2. No menu lateral, clique em **Pages**
+3. Em **Source**, selecione:
+   - Branch: `main`
+   - Folder: `/ (root)`
+4. Clique em **Save**
+5. Aguarde alguns minutos e sua página estará disponível em:
+   `https://tiprintbag.github.io/LP1/`
+
+### Desenvolvimento Local
+
 1. Abra o arquivo `index.html` em seu navegador
 2. Para desenvolvimento local, você pode usar um servidor simples:
    ```bash
