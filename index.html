@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Printbag - Embalagens Personalizadas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Embalagens personalizadas feitas sob medida para destacar sua marca e valorizar seus produtos.
+                </h1>
+                <p class="hero-subtitle">
+                    Aumente o Impacto nas Vendas com Sacolas Personalizadas
+                </p>
+                <button class="cta-button" onclick="scrollToForm()">
+                    Receba um diagnóstico gratuito
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Carousel Section -->
+    <section class="partners-section">
+        <div class="container partners-container">
+            <div class="partners-header">
+                <h2 class="partners-title">
+                    Grandes marcas já entenderam: a sacola é parte da experiência do consumidor.
+                </h2>
+                <p class="partners-subtitle">
+                    Conheça algumas das marcas que já fortalecem sua identidade conosco:
+                </p>
+            </div>
+            
+            <div class="carousel-wrapper">
+                <div class="carousel-container">
+                    <div class="carousel-track">
+                        <div class="carousel-slide">
+                            <img src="images/parceiros.png" alt="Marcas parceiras Printbag" class="carousel-image">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/parceiros1.png" alt="4 Motivos para escolher Printbag" class="carousel-image">
+                        </div>
+                        <!-- Duplicar imagens para loop infinito -->
+                        <div class="carousel-slide">
+                            <img src="images/parceiros.png" alt="Marcas parceiras Printbag" class="carousel-image">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/parceiros1.png" alt="4 Motivos para escolher Printbag" class="carousel-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Diferenciais Section -->
+    <section class="diferenciais-section">
+        <div class="container">
+            <img src="images/diferenciais-2.png" alt="Diferenciais Printbag" class="diferenciais-image">
+        </div>
+    </section>
+    
+    <!-- Reasons Section -->
+    <section class="reasons-section">
+        <div class="container reasons-container">
+            <h2 class="reasons-title">
+                4 Motivos para você produzir sua sacola personalizada com a Printbag
+            </h2>
+            
+            <div class="reasons-grid">
+                <div class="reason-card">
+                    <div class="reason-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="1" y="6" width="16" height="10" rx="2"/>
+                            <path d="M17 6h4v10h-4z"/>
+                            <circle cx="5.5" cy="18.5" r="1.5" fill="currentColor"/>
+                            <circle cx="18.5" cy="18.5" r="1.5" fill="currentColor"/>
+                            <rect x="3" y="8" width="12" height="6" rx="1"/>
+                        </svg>
+                    </div>
+                    <h3 class="reason-title">Logística integrada</h3>
+                    <p class="reason-description">
+                        Levamos seus pedidos de embalagens personalizadas diretamente às lojas da sua rede, reduzindo custos adicionais de logística, poupando tempo e pessoas.
+                    </p>
+                </div>
+                
+                <div class="reason-card">
+                    <div class="reason-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 3h6a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/>
+                            <path d="M9 9h6M9 13h6M9 17h4"/>
+                            <path d="M11 3v-1a1 1 0 0 1 1-1h0a1 1 0 0 1 1 1v1"/>
+                        </svg>
+                    </div>
+                    <h3 class="reason-title">Amostras físicas antes da produção</h3>
+                    <p class="reason-description">
+                        Pré-visualização do seu projeto: desenvolvido com materiais de alta qualidade, você receberá amostras físicas para validar todos os detalhes antes da produção final.
+                    </p>
+                </div>
+                
+                <div class="reason-card">
+                    <div class="reason-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M6 4h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/>
+                            <path d="M8 10h8M8 14h6M8 18h4"/>
+                            <path d="M10 4v-1a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v1"/>
+                            <path d="M6 8h12"/>
+                            <path d="M4 7h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z" opacity="0.25" transform="translate(1, 1)"/>
+                        </svg>
+                    </div>
+                    <h3 class="reason-title">Variedade de produtos</h3>
+                    <p class="reason-description">
+                        Na Printbag, você encontra diferentes modelos, tamanhos, acabamentos e materiais, tudo para criar sacolas que combinam perfeitamente com a identidade da sua marca.
+                    </p>
+                </div>
+                
+                <div class="reason-card">
+                    <div class="reason-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                            <circle cx="16" cy="8" r="2.5" fill="none"/>
+                        </svg>
+                    </div>
+                    <h3 class="reason-title">Fidelização de Clientes</h3>
+                    <p class="reason-description">
+                        A Printbag já é parceira de grandes marcas como Lacoste e Calvin Klein, que confiam na qualidade da nossa produção. Sua empresa também pode ter sacolas com o mesmo padrão de excelência que fortalece essas marcas.
+                    </p>
+                </div>
+            </div>
+            
+            <button class="cta-button-secondary" onclick="scrollToForm()">
+                Quero saber mais
+            </button>
+        </div>
+    </section>
+    
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="container">
+            <video class="hero-video" autoplay muted loop playsinline>
+                <source src="images/printhorizontal.mp4" type="video/mp4">
+                Seu navegador não suporta vídeos HTML5.
+            </video>
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <section class="form-section" id="form-section">
+        <div class="container form-container">
+            <h2 class="form-title">Ficou interessado?</h2>
+            <p class="form-subtitle">Preencha as informações abaixo:</p>
+            
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">E-mail corporativo</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="empresa">Empresa</label>
+                    <input type="text" id="empresa" name="empresa" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="telefone">Telefone/WhatsApp</label>
+                    <input type="tel" id="telefone" name="telefone" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="lojas">Número de lojas</label>
+                    <select id="lojas" name="lojas" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4+">4 ou mais</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="segmento">Segmento</label>
+                    <select id="segmento" name="segmento" required>
+                        <option value="Moda e Vestuário">Moda e Vestuário</option>
+                        <option value="Cosméticos e Beleza">Cosméticos e Beleza</option>
+                        <option value="Joias e Relógios">Joias e Relógios</option>
+                        <option value="Alimentos e Bebidas">Alimentos e Bebidas</option>
+                        <option value="Tecnologia e Eletrônicos">Tecnologia e Eletrônicos</option>
+                        <option value="Outros">Outros</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="submit-button">
+                    Falar com um Consultor
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq-section">
+        <div class="container faq-container">
+            <div class="faq-content">
+                <div class="faq-right">
+                    <h2 class="faq-title">Dúvidas Frequentes</h2>
+                    
+                    <div class="faq-list">
+                        <div class="faq-item">
+                            <div class="faq-question" onclick="toggleFaq(this)">
+                                <span class="faq-icon">+</span>
+                                <span class="faq-question-text">Qual o pedido mínimo?</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>O pedido mínimo nos formatos padronizados (P, M e G) varia entre 2.000 e 4.000 unidades por formato. Acima de 5.000 unidades, você pode escolher de acordo com a sua necessidade. Para mais detalhes, fale com a nossa equipe.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question" onclick="toggleFaq(this)">
+                                <span class="faq-icon">+</span>
+                                <span class="faq-question-text">Vocês entregam em todo o Brasil?</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Sim! Entregamos de ponta a ponta em todo o território nacional.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question" onclick="toggleFaq(this)">
+                                <span class="faq-icon">+</span>
+                                <span class="faq-question-text">Como funciona o processo de personalização e aprovação do design?</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Não criamos a arte do zero — precisamos receber o arquivo da sua marca. Caso seja necessário, realizamos até 3 ajustes para garantir a validação final do layout.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question" onclick="toggleFaq(this)">
+                                <span class="faq-icon">+</span>
+                                <span class="faq-question-text">A Printbag trabalha com outras soluções além de sacolas?</span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Sim! Também produzimos sacos, envelopes, caixas, sedas, etiquetas, tags e muito mais.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p class="footer-text">© Copyright 2025 – Printbag Embalagens – todos os direitos reservados.</p>
+            <p class="footer-developer">Desenvolvido por Pedro Levorato</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
